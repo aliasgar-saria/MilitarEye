@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 
 # Load the trained model
-model = load_model('model1.h5')  # Make sure 'model1.h5' is the correct path to your model
+model = load_model('model2.h5')  # Make sure 'model1.h5' is the correct path to your model
 
 # Prediction function for the Gradio app
 def predict_and_visualize(img):
